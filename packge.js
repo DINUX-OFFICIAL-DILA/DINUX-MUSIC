@@ -1,12 +1,12 @@
 {
-  "name": "dinuxmusic",
+  "name": "yourbot",
   "version": "1.0.0",
   "description": "A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name dinuxmusic",
-    "stop": "pm2 stop dinuxmusic",
-    "restart": "pm2 restart dinuxmusic"
+    "start": "pm2 start index.js --deep-monitoring --attach --name wabot",
+    "stop": "pm2 stop wabot",
+    "restart": "pm2 restart wabot"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
